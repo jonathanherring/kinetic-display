@@ -14,7 +14,6 @@ Cylon.robot({
     relay: { driver: 'relay', pin: 7, type: 'open' }
   },
   work: function(my) {
-    // every((1).second(), my.relay.toggle);
   }
 }).start()
 
