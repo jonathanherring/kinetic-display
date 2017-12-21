@@ -4,6 +4,8 @@ When I was first diving into programming, I was excited to learn that coding cou
 I was recently inspired to make something quite out of the ordinary. The inspiration came from a building in Denver
 called 'The Spire'. 
 
+![](https://github.com/jonathanherring/kinetic-display/blob/master/spire.gif)
+
 
 The Spire has thousands of metal plates that move in the wind, creating a spectacular display. I wondered how I could make a 
 scaled down/digital version of this kind of installation.
@@ -16,12 +18,15 @@ peicing together a lot of disparate elements.
 
 Below is a diagram of how the installation works, basically, a camera detects motion and the program tells an arduino to turn on 3 fans, which push air over a board of aluminium pendants.
 
+![]()
 
 ## The non-tech
 
 The non-tech element of this project required 664 aluminum stamping blanks nailed to a board in a tight array. 
 The stamping blanks (or pendants) needed 
 
+![](https://github.com/jonathanherring/kinetic-display/blob/master/board%201.jpg)
+![](https://github.com/jonathanherring/kinetic-display/blob/master/board%202.jpg)
 
 ## The Tech
 
@@ -29,8 +34,14 @@ I first worked on the JavaScript to detect motion. After researching and running
 
 Next I had to figure out how to tell the fans to turn on and off. Originally I began using a Raspberry Pi, however with just 3 weeks to complete the whole thing, the Pi added a layer of complexity that slowed me down. I shifted to using an Arduino which helped simplify the project and fit within the 3 week deadline. The computer connected to the Arduino which connected to a relay whcih controlled the fans. 
 
+![](https://github.com/jonathanherring/kinetic-display/blob/master/arduinoStuff.jpg)
+
 At first I used DC power 12V fans, but they werte simply not powerful enough, I switched to AC powered fans which required a bit of electrical engineering and extra precautions since AC power can be deadly.
+
+![]()
 
 ## All Together
 
 Here is the final product as of 12/14/17
+
+![](https://github.com/jonathanherring/kinetic-display/blob/master/shimmer2.gif)
