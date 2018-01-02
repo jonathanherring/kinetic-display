@@ -18,7 +18,7 @@ peicing together a lot of disparate elements.
 
 Below is a diagram of how the installation works, basically, a camera detects motion and the program tells an arduino to turn on 3 fans, which push air over a board of aluminium pendants.
 
-![]()
+![](https://github.com/jonathanherring/kinetic-display/blob/master/project%20diagram.jpg)
 
 ## The non-tech
 
@@ -30,15 +30,15 @@ The stamping blanks (or pendants) needed
 
 ## The Tech
 
-I first worked on the JavaScript to detect motion. After researching and running through a tutorial, I refactored some code from ... to fit my purposes. A big thanks to ... for making his code available.
+I first worked on the JavaScript to detect motion. After researching and running through a tutorial, I refactored some code from [Will Boyd](https://github.com/lonekorean) to fit my purposes. A big thanks to him for making his code available.
 
-Next I had to figure out how to tell the fans to turn on and off. Originally I began using a Raspberry Pi, however with just 3 weeks to complete the whole thing, the Pi added a layer of complexity that slowed me down. I shifted to using an Arduino which helped simplify the project and fit within the 3 week deadline. The computer connected to the Arduino which connected to a relay whcih controlled the fans. 
+Next I had to figure out how to tell the fans to turn on and off. Originally I began using a Raspberry Pi, however with just 3 weeks to complete the whole thing, the Pi added a layer of complexity that slowed me down. I shifted to using an Arduino which helped simplify the project and fit within the 3 week deadline. The computer connected to the Arduino which connected to a relay which controlled the fans. 
 
 ![](https://github.com/jonathanherring/kinetic-display/blob/master/arduinoStuff.jpg)
 
 At first I used DC power 12V fans, but they werte simply not powerful enough, I switched to AC powered fans which required a bit of electrical engineering and extra precautions since AC power can be deadly.
 
-![]()
+![](https://github.com/jonathanherring/kinetic-display/blob/master/fansWired.jpg)
 
 ## All Together
 
