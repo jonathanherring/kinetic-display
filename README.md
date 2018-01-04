@@ -1,5 +1,6 @@
 # Shimmer Interactive Display
  ![](https://github.com/jonathanherring/kinetic-display/blob/master/shimmer2.gif)
+ 
 I was inspired to make an interactive art installation from a building in Denver called [The Spire](https://github.com/jonathanherring/kinetic-display/blob/master/spire.gif).
 
 
