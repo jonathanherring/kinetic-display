@@ -20,7 +20,6 @@ Below is a diagram of how the installation works, basically, a camera detects mo
 ## The non-tech
 
 The non-tech element of this project required 664 aluminum stamping blanks nailed to a board in a tight array. 
-The stamping blanks (or pendants) needed 
 
 ![](https://github.com/jonathanherring/kinetic-display/blob/master/board%201.jpg)
 ![](https://github.com/jonathanherring/kinetic-display/blob/master/board%202.jpg)
