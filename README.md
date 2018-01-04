@@ -1,16 +1,15 @@
 # Shimmer Interactive Display
 
 When I was first diving into programming, I was excited to learn that coding could be used to make art. 
-I was recently inspired to make something quite out of the ordinary. The inspiration came from a building in Denver
-called [The Spire](https://github.com/jonathanherring/kinetic-display/blob/master/spire.gif)
+I was recently inspired from a building in Denver called [The Spire](https://github.com/jonathanherring/kinetic-display/blob/master/spire.gif)
 
 
 The Spire has thousands of metal plates that move in the wind, creating a spectacular display. I wondered how I could make a 
 scaled down/digital version of this kind of installation.
 
-After consulting with a few people I solidified my idea which became this project. Creating this was incredibly challenging,
+After consulting with a few people I solidified my idea which became this project. Creation was incredibly challenging,
 not the least because there was no tutorial on how to make it. This project required an immense amount of trial & error, and
-peicing together a lot of disparate elements.
+peicing together a lot of disparate elements, oh and a 3 week deadline.
 
 ## The Idea
 
