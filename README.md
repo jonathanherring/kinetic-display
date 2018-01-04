@@ -9,7 +9,7 @@ scaled down/digital version of this kind of installation.
 
 After consulting with a few people I solidified my idea which became this project. Creation was incredibly challenging,
 not the least because there was no tutorial on how to make it. This project required an immense amount of trial & error, and
-peicing together a lot of disparate elements, oh and a 3 week deadline.
+peicing together a lot of disparate elements (oh and a 3 week deadline).
 
 ## The Idea
 
@@ -26,7 +26,7 @@ The non-tech element of this project required 664 aluminum stamping blanks naile
 
 ## The Tech
 
-I first worked on the JavaScript to detect motion. After researching and running through a tutorial, I refactored some code from [Will Boyd](https://github.com/lonekorean) to fit my purposes. A big thanks to him for making his code available.
+I first worked on the JavaScript to detect motion. After a few days of research and experimentation, I refactored some code from [Will Boyd](https://github.com/lonekorean) to fit my purposes. A big thanks to him for making his code available.
 
 Next I had to figure out how to tell the fans to turn on and off. Originally I began using a Raspberry Pi, however with just 3 weeks to complete the whole thing, the Pi added a layer of complexity that slowed me down. I shifted to using an Arduino which helped simplify the project and fit within the 3 week deadline. The computer connected to the Arduino which connected to a relay which controlled the fans. 
 
@@ -38,6 +38,6 @@ At first I used DC power 12V fans, but they werte simply not powerful enough, I 
 
 ## All Together
 
-Here is the final product as of 12/14/17
+Here is the final product as of 12/14/17. The camera and computer detect motion, when a threshold of movement is met, the front end turns on some music and sends a call to the Cylon.js back end. The back end tells the arduino to turn on the relay that controls power to the 3 fans that push air over the aluminum pendants. When movement stops, the fans stop, however if the user keeps up a certain level of movement (by dancing, perhaps) the fans remain on and the pendant board shimmers.
 
 ![](https://github.com/jonathanherring/kinetic-display/blob/master/shimmer2.gif)
