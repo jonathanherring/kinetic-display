@@ -11,6 +11,14 @@ After consulting with a few people I solidified my idea which became this projec
 not the least because there was no tutorial on how to make it. This project required an immense amount of trial & error, and
 peicing together a lot of disparate elements (oh and a 3 week deadline).
 
+## Technologies
+* HTML Canvas
+* JavaScript
+* Node.js
+* Cylon.js
+* Arduino
+* Ava
+
 ## The Idea
 
 Below is a diagram of how the installation works, basically, a camera detects motion and the program tells an arduino to turn on 3 fans, which push air over a board of aluminium pendants.
